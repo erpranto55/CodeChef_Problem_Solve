@@ -1,11 +1,10 @@
-//https://www.codechef.com/problems/WENOTI
-
+// https://www.codechef.com/problems/WENOTI
 
 #include <bits/stdc++.h>
 using namespace std;
-#define FAST ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0)
 #define ll long long
 #define ld long double
+#define FAST ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0)
 #define HA cout << "YES\n"
 #define NA cout << "NO\n"
 #define nl '\n'
@@ -13,9 +12,9 @@ using namespace std;
 int main()
 {
     FAST;
-    int tCase;
-    cin >> tCase;
-    while (tCase--)
+    int tc = 1;
+    cin >> tc;
+    while (tc--)
     {
         ll n, k;
         cin >> n >> k;
@@ -28,14 +27,7 @@ int main()
         {
             if (c == 'I')
                 continue;
-            if (st.empty())
-            {
-                st.push(c);
-            }
-            else
-            {
-                st.push(c);
-            }
+            st.push(c);
         }
 
         while (!st.empty())

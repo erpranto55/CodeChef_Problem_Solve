@@ -1,6 +1,3 @@
-//https://www.codechef.com/START214D/problems/BDBD
-
-
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
@@ -18,15 +15,8 @@ ll fy[] = {1, -1, 0, 0, -1, 1, -1, 1};
 int main()
 {
     FAST;
-    int tc = 1;
-    cin >> tc;
-    while (tc--)
-    {
-        int n, k;
-        cin >> n >> k;
-        string s;
-        cin >> s;
-        // incomplete
-    }
+    int n, k, r;
+    cin >> n >> k >> r;
+    cout << (n - k) * r << nl;
     return 0;
 }
