@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/CP/Codechef_problem_solve/Live_Contests",
-      "program": "d:/CP/Codechef_problem_solve/Live_Contests/build/Debug/outDebug",
+      "cwd": "d:/CP/Codechef_problem_solve/Live_Contests/Starters-223",
+      "program": "d:/CP/Codechef_problem_solve/Live_Contests/Starters-223/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
